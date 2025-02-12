@@ -156,7 +156,9 @@ AFFiNE.use('copilot', {
     apiKey: process.env.COPILOT_FAL_API_KEY,
   },
   unsplashKey: process.env.COPILOT_UNSPLASH_API_KEY,
-  perplexity: process.env.COPILOT_PERPLEXITY_API_KEY,
+  perplexity: {
+    apiKey: process.env.COPILOT_PERPLEXITY_API_KEY
+  },
 //   storage: {
 //     provider: 'cloudflare-r2',
 //     bucket: 'copilot',
